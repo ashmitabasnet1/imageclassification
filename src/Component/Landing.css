@@ -1,0 +1,55 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../images/image2.jpg");
+}
+
+.landingbg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background: url("../images/img9.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  opacity: 0.6;
+}
+
+/* .react {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50vh;
+  width: 50vh;
+  background: url("../images/image5.png");
+  background-size: cover;
+  opacity: 0.5;
+
+} */
+
+
+.txt1{
+    text-align:top ;
+    font-weight: 1000;
+    color:rgb(181, 228, 204);
+    font-family:'Josefin Sans', sans-serif;;
+    margin-left: 10rem;
+  }
+
+  .txt2{
+    text-align:top ;
+    font-weight:bolder;
+    color:rgb(241, 242, 241);
+    font-family:'Josefin Sans', sans-serif;;
+    margin-right:15rem ;
+    margin-top: 15rem;
+  }
+    
+
